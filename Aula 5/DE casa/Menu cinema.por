@@ -136,14 +136,12 @@ programa
 		escreva(" Existe(m) ",cont," convidado(s) no total.\n")
 		escreva(" O valor total dos ingressos é R$",cont*120.0,"\n")
 		u.aguarde(5000)
-	}
-}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2369; 
+ * @POSICAO-CURSOR = 2364; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

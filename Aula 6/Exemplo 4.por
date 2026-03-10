@@ -1,37 +1,25 @@
 programa
 {
-	inclua biblioteca Util --> U
+	inclua biblioteca Texto
+	inclua biblioteca Matematica -->M
+	inclua biblioteca Util
 	funcao inicio()
 	{
-		inteiro numero = 0
-
-		escreva("Numero sorteado: ", sorteio(), "\n")
-		numero = sorteio()
-		exibe(numero)
-		escreva("\n", numero)
+		cadeia texto
+		escreva("Digite o texto: ")
+		leia(texto)
+		Util.aguarde(1000)
+		escreva(Texto.caixa_alta(texto), "\n")
+		escreva(M.potencia(2, 5))
 		
 	}
-
-	funcao inteiro sorteio(){
-		inteiro n
-		
-		n=U.sorteia(1, 1000)
-		
-		retorne n
-	}
-
-
-	funcao exibe(inteiro &n){
-	escreva("\n", n+1)
-	}
-	
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 339; 
+ * @POSICAO-CURSOR = 235; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
